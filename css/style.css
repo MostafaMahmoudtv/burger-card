@@ -1,0 +1,86 @@
+body {
+  background-color: #c9ba35;
+}
+.app {
+  display: grid;
+  background-color: #c9ba35;
+  height: 150vh;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 520px;
+  height: 560px;
+  text-align: center;
+  border-radius: 20px;
+  margin: 200px auto 0 auto;
+}
+/* this is header  */
+.header {
+  justify-content: space-between;
+  display: flex;
+}
+
+.header .icon {
+  margin-top: 21px;
+  margin-right: 19px;
+  font-size: 24px; /* حجم الأيقونة الافتراضي */
+  transition: transform 0.3s ease;
+}
+.header .icon:hover {
+  color: red;
+
+  transform: scale(1.2);
+}
+
+.logo {
+  width: 50px;
+  border-radius: 30px;
+  margin-left: 5px;
+  margin-top: 8px;
+  flex-shrink: 0;
+}
+.logo:hover {
+  cursor: pointer;
+}
+/* this is body of the card   */
+.image {
+  margin-top: 10px;
+}
+.name {
+  position: relative;
+  margin-bottom: 0;
+  margin-left: -346px;
+  font-size: 30px;
+  margin-top: 0;
+}
+.text {
+  margin-bottom: 0;
+  left: 3px;
+}
+
+.picturecolor {
+  margin-top: 0;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.circle-container {
+  display: flex;
+}
+
+.dollar {
+  margin-top: 10px;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* Order now button  */
+button {
+  width: 350px;
+  height: 35px;
+}
